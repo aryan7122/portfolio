@@ -1,0 +1,109 @@
+.project {
+    width: 100%;
+    height: auto;
+}
+
+.project .head_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project .head_title h1 {
+    font-size: 4rem;
+    border-bottom: 5px solid rgb(245, 204, 4);
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+/* .project .content .rever{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap-reverse;
+ align-items: center;
+ justify-content: space-between;
+} */
+
+.project .content .cont_1 {
+    padding: 0;
+    width: 100%;
+    height: auto;
+    margin: 5% auto;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+    /* border-radius: 10px; */
+
+}
+
+.project .content .cont_1 .left {
+    margin: 0px 5%;
+}
+
+.project .content .cont_1 .left h1 {
+    font-size: 3rem;
+}
+
+.project .content .cont_1 .left p {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.project .content .cont_1 .left button {
+    border: 1px solid black;
+    outline: none;
+    background: none;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.project .content .cont_1 .right {
+    width: 100%;
+    height: 100%;
+
+}
+
+.project .content .cont_1 .right img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -3px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .project .content .cont_1 .right img {
+        width: 350px;
+        height: 350px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .project .content .cont_1 .right img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .project .content .cont_1 {
+        flex-direction: column;
+    }
+
+    .project .content .cont_1 .right img {
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .project .content .cont_1 {
+        width: 90%;
+    }
+
+    .project .content .cont_1 .left {
+        margin: 0px 5%;
+        text-align: center;
+    }
+}

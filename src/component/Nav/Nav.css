@@ -1,0 +1,40 @@
+.main {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 1;
+}
+
+.nav_left {
+    padding: 0px 4%;
+}
+
+.nav_left .logo {
+    cursor: pointer;
+}
+
+.nav_right {
+    padding: 0px 70px;
+}
+
+.menu {}
+
+.nav_right .menu ul {
+    display: flex;
+}
+
+.nav_right .menu ul li {
+    list-style: none;
+    padding: 0px 30px;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .nav_left .logo h1{
+        font-size: 14px;
+    }
+}
