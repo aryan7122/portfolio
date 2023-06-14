@@ -4,7 +4,7 @@
     /* z-index: -1; */
     display: flex;
     position: relative;
-    align-items: start;
+    /* align-items: start; */
     flex-direction: row;
     justify-content: space-between;
     scroll-behavior: smooth;
@@ -42,7 +42,7 @@
 
 .header .left .content .btn {
     display: flex;
-    align-items: start;
+    /* align-items: start; */
     z-index: 9;
     /* width: 144px; */
 }

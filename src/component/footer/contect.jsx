@@ -2,6 +2,13 @@ import React from 'react'
 import './Contect.css'
 import imgbg from '../../img/footerimg.png'
 
+const handleSubmit = (e) => {
+    // e.preventDefault();
+    const value = e.target
+    console.log(value)
+}
+
+
 const contect = () => {
     return (
         <div>
@@ -11,26 +18,26 @@ const contect = () => {
                 </div>
                 <div className="form_box">
                     <div className="forms">
-                        <form >
+                        <form onSubmit={handleSubmit} >
                             <div>
                                 <label>Name</label>
                             </div>
                             <div>
-                                <input type="text" />
+                                <input type="text"  required/>
                             </div>
 
                             <div>
                                 <label>Email</label>
                             </div>
                             <div>
-                                <input type="email" />
+                                <input type="email" required/>
                             </div>
 
                             <div>
                                 <label>Message</label>
                             </div>
                             <div>
-                                <textarea name="" id="" cols="30" rows="10" className='ms'></textarea>
+                                <textarea name="" id="" cols="30" rows="10" className='ms' required></textarea>
                             </div>
                             <div className="btn">
                                 <button>Send</button>

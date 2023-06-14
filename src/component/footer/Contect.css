@@ -59,7 +59,7 @@
 .contect .form_box .btn {
     display: flex;
     align-items: center;
-    justify-content: end;
+    /* justify-content: end; */
     margin-top: 10px;
     cursor: pointer;
 }
@@ -72,6 +72,7 @@
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .contect .socailmedia {
@@ -100,5 +101,5 @@
 }
 
 @media only screen and (max-width: 550px) {
-    
+
 }
